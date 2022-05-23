@@ -11,15 +11,9 @@ button{background: none; cursor: pointer;}
 
 .section{padding-top: 3rem;}
 .main_wrap{
-    /* background-color: #e5e5f7; */
     opacity: 0.8;
-    background: repeating-linear-gradient( 45deg, #511c20, #511c20 1px, #3b1519 2px, #47191e 4px );
-    position: relative;
-}
-.main_wrap::before{
-    position: absolute; left: 0; top: 0; width: 100%; height: 100%;
-    background: repeating-linear-gradient( -45deg, #511c20, #511c20 1px, #3b1519 2px, #47191e 9px );
-
+    background: repeating-linear-gradient( 45deg, #511c20, #511c20 1px, #3b1519 2px, #47191e 4px ),
+                repeating-linear-gradient( -45deg, #511c20, #511c20 1px, #3b1519 2px, #47191e 9px );
 }
 body{background: #220505;}
 header{padding: .5rem 0rem; width: 100%; top: 0; left: 0; position: fixed; z-index: 100;  background: #511c20a2;}
