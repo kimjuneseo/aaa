@@ -1,535 +1,385 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/common.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./data/resouce/fontawesome/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
-    <div id="app">
-        <header>
-            <div>
-                <nav>
-                    <div class="menu flex">
-                        <div class="logo">
-                            <img src="./imgs/logo.png" alt="logo">
-                        </div>
-                        <div class="item">
-                            <div>
-                                <a href="index.html">HOME</a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div>
-                                <a href="">아파트 소개</a>
-                            </div>
-                            <div class="sub_menu">
-                                <div class="sub_con">
-                                    <div class="grid">
-                                        <div class="r_item">
-                                            <h2>아파트 소개</h2>
-                                            <p>GRAND PALACE SINCE 1985</p>
-                                            <div class="img_box mark">
-                                                <img src="./imgs/icon.png" alt="logo">
-                                            </div>
-                                        </div>
-                                        <div class="l_item flex">
-                                            <div><a href="">단지 안내</a></div>
-                                            <div><a href="">단지 배치도</a></div>
-                                            <div><a href="">평면도</a></div>
-                                            <div><a href="">커뮤니티 시설</a></div>
-                                            <div><a href="">오시는 길</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div>
-                                <a href="">대표회의</a>
-                            </div>
-                            <div class="sub_menu">
-                                <div class="sub_con">
-                                    <div class=" grid">
-                                        <div class="r_item">
-                                            <h2>대표회의</h2>
-                                            <p>GRAND PALACE SINCE 1985</p>
-                                            <div class="img_box mark">
-                                                <img src="./imgs/icon.png" alt="logo">
-                                            </div>
-                                        </div>
-                                        <div class="l_item flex">
-                                            <div><a href="">회장 인사말</a></div>
-                                            <div><a href="">대표회 구성</a></div>
-                                            <div><a href="">공지사항</a></div>
-                                            <div><a href="">추지현황</a></div>
-                                            <div><a href="">규정 및 규약</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div>
-                                <a href="">입주민 공간</a>
-                            </div>
-                            <div class="sub_menu">
-                                <div class="sub_con">
-                                    <div class="grid">
-                                        <div class="r_item">
-                                            <h2>입주민 공간</h2>
-                                            <p>GRAND PALACE SINCE 1985</p>
-                                            <div class="img_box mark">
-                                                <img src="./imgs/icon.png" alt="logo">
-                                            </div>
-                                        </div>
-                                        <div class="l_item flex">
-                                            <div><a href="">자유게시판</a></div>
-                                            <div><a href="">갤러리</a></div>
-                                            <div><a href="">생활상식</a></div>
-                                            <div>
-                                                <a href="">행사 안내</a>
-                                                <div class="l_sub ">
-                                                    <div><a href="">이달의 행사</a></div>
-                                                    <div><a href="">연간 행사</a></div>
-                                                </div>
-                                            </div>
-                                            <div><a href="">민원 관리</a>
-                                                <div class="l_sub ">
-                                                    <div><a href="">시설 민원</a></div>
-                                                    <div><a href="">일반 민원</a></div>
-                                                    <div><a href="">보안 민원</a></div>
-                                                    <div><a href="">청소 민원</a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div>
-                                <a href="">선거/투표</a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div>
-                                <a href="">주변정보</a>
-                            </div>
-                            <div class="sub_menu">
-                                <div class="sub_con">
-                                    <div class=" grid">
-                                        <div class="r_item">
-                                            <h2>주변정보</h2>
-                                            <p>GRAND PALACE SINCE 1985</p>
-                                            <div class="img_box mark">
-                                                <img src="./imgs/icon.png" alt="logo">
-                                            </div>
-                                        </div>
-                                        <div class="l_item flex">
-                                            <div><a href="">상가</a></div>
-                                            <div><a href="">관공서</a></div>
-                                            <div><a href="">교육</a></div>
-                                            <div><a href="">문화</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div>
-                                <a href="">예약관리</a>
-                            </div>
-                            <div class="sub_menu">
-                                <div class="sub_con">
-                                    <div class=" grid">
-                                        <div class="r_item">
-                                            <h2>예약관리</h2>
-                                            <p>GRAND PALACE SINCE 1985</p>
-                                            <div class="img_box mark">
-                                                <img src="./imgs/icon.png" alt="logo">
-                                            </div>
-                                        </div>
-                                        <div class="l_item flex">
-                                            <div><a href="">스크린 골프</a></div>
-                                            <div><a href="">도서실</a></div>
-                                            <div><a href="">조식</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div>
-                                <a href="">마이페이지</a>
-                            </div>
-                            <div class="sub_menu">
-                                <div class="sub_con">
-                                    <div class=" grid">
-                                        <div class="r_item">
-                                            <h2>마이페이지</h2>
-                                            <p>GRAND PALACE SINCE 1985</p>
-                                            <div class="img_box mark">
-                                                <img src="./imgs/icon.png" alt="logo">
-                                            </div>
-                                        </div>
-                                        <div class="l_item flex">
-                                            <div><a href="">공과금 사용량 조회</a></div>
-                                            <div><a href="">관리비 조회</a></div>
-                                            <div><a href="">CCTV 조회</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+    <header>
+        <div class="container2 flex">
+            <div class="logo img_box"><h1><a href="./index.html"><img src="./data/img/logo.png" alt="logo" title="logo"></a></h1></div>
+            <div class="menu flex">
+                <div class="item">
+                    <a href="./index.html">홈</a>
+                </div>
+                <div class="item">
+                    <a href="">정원안내</a>
+                    <div class="sub_menu">
+                        <div class="sub"><a href="">정원검색</a></div>
+                        <div class="sub"><a href="">전체정원목록</a></div>
                     </div>
-                </nav>
+                </div>
+                <div class="item">
+                    <a href="">정원예약</a>
+                    <div class="sub_menu">
+                        <div class="sub"><a href="">예약확인</a></div>
+                        <div class="sub"><a href="">예약내역</a></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="./gardenC.html">정원 소식지</a>
+
+                </div>
             </div>
-        </header>
-        <section id="slide">
-            <div class="slide">
-                <div class="slide_items flex">
-                    <div class="item">
-                        <div class="img_box"><img src="./imgs/img (1).jpg" alt="slideimg"></div>
+            <div class="sign flex">
+                <button class="back" type="button">로그인</button>
+                <button class="border" type="button">회원가입</button></div>
+        </div>
+    </header>
+    <section id="index">
+        <div id="visual">
+            
+                <div class="slide_wrap">
+                    <div class="slide flex">
+
+                        <div class="item flex">
+                            <div class="img_box">
+                                <img src="./data/img/(1).jpg" alt="slide" title="slide">
+                                <div class="text_wrap">
+                                    <div class="item text"><h2>GARDEN</h2>
+                                    <p>  temporibus soluta possimus velit! Quae corporis facilis delectus aliquid cumque.</p></div>
+                                    <div class="item img"><img src="./data/img/(1).jpg" alt="slide" title="slide"></div>
+                                </div>
+                            </div>
+                            <div class="img_box">
+                                <img src="./data/img/(6).jpg" alt="slide" title="slide">
+                                <div class="cnt">01</div>
+                                <div class="text_box">
+                                        <p>정원도시 경상남도에서 추억을 남길 <br> 절호의 기회!</p>
+                                        <button>View More</button>
+                                    </div>
+                                    
+                                <div class="text_wrap">
+                                    <div class="item img"><img src="./data/img/(6).jpg" alt="slide" title="slide"></div>
+                                    
+                                    <div class="item text"><h2>PARK</h2>
+                                    <p> adipisicing elit. Quia quisquam, at rem placeat fugiat repellat unde id animi </p></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="item flex">
+                            <div class="img_box">
+                                <img src="./data/img/(3).jpg" alt="slide" title="slide">
+                                <div class="text_wrap">
+                                    <div class="item text"><h2>GARDEN</h2>
+                                    <p>  temporibus soluta possimus velit! Quae corporis facilis delectus aliquid cumque.</p></div>
+                                    <div class="item img"><img src="./data/img/(3).jpg" alt="slide" title="slide"></div>
+                                </div>
+                            </div>
+                            <div class="img_box">
+                                <img src="./data/img/(4).jpg" alt="slide" title="slide">
+                                <div class="cnt">02</div>
+                                <div class="text_box">
+                                        <p>지친 일상과 고생한 당신에게 <br> 최고의 휴가를 만들어 드릴게요.</p>
+                                        <button>View More</button>
+                                    </div>
+                                    
+                                <div class="text_wrap">
+                                    <div class="item img"><img src="./data/img/(4).jpg" alt="slide" title="slide"></div>
+                                    
+                                    <div class="item text"><h2>PARK</h2>
+                                        <p> adipisicing elit. Quia quisquam, at rem placeat fugiat repellat unde id animi </p></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                                
+                        <div class="item flex">
+                            <div class="img_box">
+                                <img src="./data/img/(2).jpg" alt="slide" title="slide">
+                                <div class="text_wrap">
+                                    <div class="item text"><h2>GARDEN</h2>
+                                        <p> expedita maxime temporibus soluta possimus velit! Quae corporis facilis delectus aliquid cumque.</p></div>
+                                    <div class="item img"><img src="./data/img/(2).jpg" alt="slide" title="slide"></div>
+                                </div>
+                            </div>
+                            <div class="img_box">
+                                <img src="./data/img/(8).jpg" alt="slide" title="slide">
+                                <div class="cnt">03</div>
+                                <div class="text_box">
+                                        <p>당신에게 딱 맞는 경상남도 <br> 정원은 무엇일까요?</p>
+                                        <button>View More</button>
+                                    </div>
+                                    
+                                <div class="text_wrap">
+                                    <div class="item img"><img src="./data/img/(8).jpg" alt="slide" title="slide"></div>
+                                    
+                                    <div class="item text"><h2>PARK</h2>
+                                        <p> adipisicing elit. Quia quisquam, at rem placeat fugiat repellat unde id animi </p></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="item">
-                        <div class="img_box"><img src="./imgs/img (2).jpg" alt="slideimg"></div>
+                </div>
+            
+        </div>
+
+        <div id="recommend">
+            <div class="container">
+                <div class="re_wrap">
+                <div class="item">
+                    <div class="img_box"><img src="./data/img/(1).jpg" alt="recommend" title="recommend"></div>
+                    <div class="text_wrap">                        
+                            <h2>해솔찬정원 </h2>
+                            <p>경상남도 통영시 도산면 저산리 572-1 </p>
+                            <p>055-643-0564 </p>
+                            <p> 해솔찬정원 </p>
+                            <div class="tag"><div >체험학습</div> <div>초원</div> <div>식물원</div> </p></div>
+                            <div class="stars flex"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div> 
                     </div>
-                    <div class="item">
-                        <div class="img_box"><img src="./imgs/img (3).jpg" alt="slideimg"></div>
+                </div>
+                <div class="item">
+                    <div class="img_box"><img src="./data/img/(6).jpg" alt="recommend" title="recommend"></div>
+                    <div class="text_wrap">
+                            <h2>엄마의정원 </h2>
+                            <p>경상남도 밀양시 하남읍 남전7길 41-19 </p>
+                            <p>010-3884-1100 </p>
+                            <p> 엄마의정원 </p>
+                            <div class="tag"><div>광활</div><div> 식물원</div> </p></div>
+                            <div class="stars flex"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div> 
+
                     </div>
-                    <div class="item">
-                        <div class="img_box"><img src="./imgs/img (1).jpg" alt="slideimg"></div>
+                </div>
+                <div class="item">
+                    <div class="img_box"><img src="./data/img/(7).jpg" alt="recommend" title="recommend"></div>
+                    <div class="text_wrap">
+                            <h2>화계리정원 </h2>
+                            <p>경상남도 남해군 이동면 화계리 292-6 </p>
+                            <p>010-4074-6444 </p>
+                            <p> 화계리정원 </p>
+                            <div class="tag"><div>친근</div> <div>빈티지</div> <div>나무</div> </p></div>
+                            <div class="stars flex"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div> 
+
+
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="main_wrap">
-            <article id="tab" class="section">
-                <div class="container">
-                    <input type="radio" name="tab_menu" id="tab1" checked>
-                    <input type="radio" name="tab_menu" id="tab2">
-                    <input type="radio" name="tab_menu" id="tab3">
-                    <h2 class="title">공지사항</h2>
-                    <div class="tab_menu grid">
-                        <label for="tab1">아파트 공지사항</label>
-                        <label for="tab2">입대의 의결 공지사항</label>
-                        <label for="tab3">민원처리 공지사항</label>
-                    </div>
-                    <div class="tab tab1 grid">
-                        <div class="item grid">
-                            <img src="./imgs/img (1).jpg" alt="">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid nisi esse, eum
-                                temporibus pariatur similique porro nostrum vel minima maxime corrupti velit in quas?
-                                Consequuntur fugit sint delectus qui!</p>
-                            <h2>05/31</h2>
-                        </div>
-                        <div class="item grid">
-                            <div class="img_box"><img src="./imgs/img (2).jpg" alt=""></div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid nisi esse, eum
-                                temporibus pariatur similique porro nostrum vel minima maxime corrupti velit in quas?
-                                Consequuntur fugit sint delectus qui!</p>
-                            <h2>05/31</h2>
-                        </div>
-                        <div class="item grid">
-                            <div class="img_box"><img src="./imgs/img (3).jpg" alt=""></div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid nisi esse, eum
-                                temporibus pariatur similique porro nostrum vel minima maxime corrupti velit in quas?
-                                Consequuntur fugit sint delectus qui!</p>
-                            <h2>05/31</h2>
-                        </div>
-                        <div class="item grid">
-                            <div class="img_box"><img src="./imgs/img (4).jpg" alt=""></div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid nisi esse, eum
-                                temporibus pariatur similique porro nostrum vel minima maxime corrupti velit in quas?
-                                Consequuntur fugit sint delectus qui!</p>
-                            <h2>05/31</h2>
-                        </div>
-                        <div class="item grid">
-                            <div class="img_box"><img src="./imgs/img (5).jpg" alt=""></div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid nisi esse, eum
-                                temporibus pariatur similique porro nostrum vel minima maxime corrupti velit in quas?
-                                Consequuntur fugit sint delectus qui!</p>
-                            <h2>05/31</h2>
-                        </div>
-                        <div class="item grid">
-                            <div class="img_box"><img src="./imgs/img (6).jpg" alt=""></div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid nisi esse, eum
-                                temporibus pariatur similique porro nostrum vel minima maxime corrupti velit in quas?
-                                Consequuntur fugit sint delectus qui!</p>
-                            <h2>05/31</h2>
-                        </div>
-                    </div>
-                    <div class="tab tab2 grid">
-                        <div class="item grid">
-                            <div class="img_box"><img src="./imgs/img (2).jpg" alt=""></div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid nisi esse, eum
-                                temporibus pariatur similique porro nostrum vel minima maxime corrupti velit in quas?
-                                Consequuntur fugit sint delectus qui!</p>
-                            <h2>05/31</h2>
-                        </div>
-                        <div class="item grid">
-                            <div class="img_box"><img src="./imgs/img (1).jpg" alt=""></div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid nisi esse, eum
-                                temporibus pariatur similique porro nostrum vel minima maxime corrupti velit in quas?
-                                Consequuntur fugit sint delectus qui!</p>
-                            <h2>05/31</h2>
-                        </div>
-                        <div class="item grid">
-                            <div class="img_box"><img src="./imgs/img (3).jpg" alt=""></div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid nisi esse, eum
-                                temporibus pariatur similique porro nostrum vel minima maxime corrupti velit in quas?
-                                Consequuntur fugit sint delectus qui!</p>
-                            <h2>05/31</h2>
-                        </div>
-                        <div class="item grid">
-                            <div class="img_box"><img src="./imgs/img (4).jpg" alt=""></div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid nisi esse, eum
-                                temporibus pariatur similique porro nostrum vel minima maxime corrupti velit in quas?
-                                Consequuntur fugit sint delectus qui!</p>
-                            <h2>05/31</h2>
-                        </div>
-                        <div class="item grid">
-                            <div class="img_box"><img src="./imgs/img (5).jpg" alt=""></div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid nisi esse, eum
-                                temporibus pariatur similique porro nostrum vel minima maxime corrupti velit in quas?
-                                Consequuntur fugit sint delectus qui!</p>
-                            <h2>05/31</h2>
-                        </div>
-                        <div class="item grid">
-                            <div class="img_box"><img src="./imgs/img (6).jpg" alt=""></div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid nisi esse, eum
-                                temporibus pariatur similique porro nostrum vel minima maxime corrupti velit in quas?
-                                Consequuntur fugit sint delectus qui!</p>
-                            <h2>05/31</h2>
-                        </div>
-                    </div>
-                    <div class="tab tab3 grid">
-                        <div class="item grid">
-                            <div class="img_box"><img src="./imgs/img (1).jpg" alt=""></div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid nisi esse, eum
-                                temporibus pariatur similique porro nostrum vel minima maxime corrupti velit in quas?
-                                Consequuntur fugit sint delectus qui!</p>
-                            <h2>05/31</h2>
-                        </div>
-                        <div class="item grid">
-                            <div class="img_box"><img src="./imgs/img (2).jpg" alt=""></div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid nisi esse, eum
-                                temporibus pariatur similique porro nostrum vel minima maxime corrupti velit in quas?
-                                Consequuntur fugit sint delectus qui!</p>
-                            <h2>05/31</h2>
-                        </div>
-                        <div class="item grid">
-                            <div class="img_box"><img src="./imgs/img (3).jpg" alt=""></div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid nisi esse, eum
-                                temporibus pariatur similique porro nostrum vel minima maxime corrupti velit in quas?
-                                Consequuntur fugit sint delectus qui!</p>
-                            <h2>05/31</h2>
-                        </div>
-                        <div class="item grid">
-                            <div class="img_box"><img src="./imgs/img (4).jpg" alt=""></div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid nisi esse, eum
-                                temporibus pariatur similique porro nostrum vel minima maxime corrupti velit in quas?
-                                Consequuntur fugit sint delectus qui!</p>
-                            <h2>05/31</h2>
-                        </div>
-                        <div class="item grid">
-                            <div class="img_box"><img src="./imgs/img (5).jpg" alt=""></div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid nisi esse, eum
-                                temporibus pariatur similique porro nostrum vel minima maxime corrupti velit in quas?
-                                Consequuntur fugit sint delectus qui!</p>
-                            <h2>05/31</h2>
-                        </div>
-                        <div class="item grid">
-                            <div class="img_box"><img src="./imgs/img (6).jpg" alt=""></div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid nisi esse, eum
-                                temporibus pariatur similique porro nostrum vel minima maxime corrupti velit in quas?
-                                Consequuntur fugit sint delectus qui!</p>
-                            <h2>05/31</h2>
-                        </div>
-                    </div>
+        </div>
+        </div>
+        <div id="gal">
+            <div class="container">
+                <div class="m_title flex">
+                    <div class="title flex"><div class="c"></div><div class="bar"></div><h2>갤러리</h2><div class="bar"></div><div class="c"></div></div>
+                    <div class="s_title">Gallay Section slide Gangmun mingan Garden Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis porro possimus a </div>
                 </div>
-            </article>
-            <article id="topoo" class="section">
-                <div class="container">
-                    <h2 class="title">투표 결과</h2>
-                    <div class="graph grid">
-                        <div class="item"></div>
-                        <div class="item"></div>
-                        <div class="item"></div>
-                        <div class="item"></div>
-                        <div class="item"></div>
-                    </div>
-                </div>
-            </article>
+                <div class="slide_wrap">
+                    <div class="slide flex">
+                    <div class="item">
+                        <div class="img_box">
+                            <img src="./data/img/(1).jpg" alt="gal" title="gal">
+                            <div class="text_wrap">
+                                <div class="text">
+                                    <h2>FOREST / 중산자연휴양림</h2> 
+                                    <p>2022년 7월 27일 18:35</p>
+                                    <p>나원형</p>
 
-            <article id="event" class="section">
-                <div class="container">
-                    <h2 class="title">이벤트</h2>
-                    <div class="event grid">
-                        <div class="item">
-                            <div class="img_box">
-                                <img src="./imgs/img (1).jpg" alt="">
-                                <div class="text_box flex">
-                                    <p>GRAND PALACE</p>
-                                    <button class="btn flex">상세내용 보기</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="img_box">
-                                <img src="./imgs/img (2).jpg" alt="">
-                                <div class="text_box flex">
-                                    <p>GRAND PALACE</p>
-                                    <button class="btn flex">상세내용 보기</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="img_box">
-                                <img src="./imgs/img (3).jpg" alt="">
-                                <div class="text_box flex">
-                                    <p>GRAND PALACE</p>
-                                    <button class="btn flex">상세내용 보기</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="img_box">
-                                <img src="./imgs/img (4).jpg" alt="">
-                                <div class="text_box flex">
-                                    <p>GRAND PALACE</p>
-                                    <button class="btn flex">상세내용 보기</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="img_box">
-                                <img src="./imgs/img (5).jpg" alt="">
-                                <div class="text_box flex">
-                                    <p>GRAND PALACE</p>
-                                    <button class="btn flex">상세내용 보기</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="img_box">
-                                <img src="./imgs/img (6).jpg" alt="">
-                                <div class="text_box flex">
-                                    <p>GRAND PALACE</p>
-                                    <button class="btn flex">상세내용 보기</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="img_box">
-                                <img src="./imgs/img (1).jpg" alt="">
-                                <div class="text_box flex">
-                                    <p>GRAND PALACE</p>
-                                    <button class="btn flex">상세내용 보기</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="img_box">
-                                <img src="./imgs/img (2).jpg" alt="">
-                                <div class="text_box flex">
-                                    <p>GRAND PALACE</p>
-                                    <button class="btn flex">상세내용 보기</button>
+                                    <!-- <p class="content">Esse, repudiandae? Quasi, repellat? Iste blanditiis ipsa nihil obcaecati fugit sunt, temporibus ullam autem eius earum aut sapiente recusandae tempore cum voluptas.</p> -->
+
+                                    <div class="btn"><button >View More</button></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </article>
-            <article id="anlbum" class="section">
-                <div class="container">
-                    <h2 class="title">앨범</h2>
-                    <div class="anlbum grid">
-                        <div class="item">
-                            <div class="img_box">
-                                <img src="./imgs/img (1).jpg" alt="">
-                                <div class="text_box">
-                                    <p>ALL ARTMENT<br>
-                                        VIEW</p>
-                                </div>
+                    
+                    <div class="item grid">
+
+                       
+                        
+                        <div class="content">
+                            <div class="text">
+                                <h2>LAND </h2> 
+                                <p>거창항노화힐링랜드</p>
+                                <p>2022년 7월 28일 14:21</p>
+                                <p>이승철</p>
+
+                                <div class="btn"><button >View More</button></div>
+                            </div>
+                            <div class="img_box back">
+                                <img src="./data/img/(2).jpg" alt="gal" title="gal">
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="img_box">
-                                <img src="./imgs/img (2).jpg" alt="">
-                                <div class="text_box">
-                                    <p>GAREN IAMGE <br>
-                                        VIEW
-                                    </p>
-                                </div>
+                        <div class="content">
+                            <div class="img_box"><img src="./data/img/(2).jpg" alt="gal" title="gal"></div>
+                        </div>
+                     
+                        
+                           
+                        <div class="content">
+                            <div class="img_box"><img src="./data/img/(9).jpg" alt="gal" title="gal"></div>
+                        </div>
+                        <div class="content">
+                            <div class="text">
+                                <h2>GARDEN  </h2> 
+                                <p>산림청 국립남해편백자연휴양림</p>
+                                <p>2022년 7월 28일 16:49</p>
+                                <p>김희아</p>
+                                <div class="btn"><button >View More</button></div>
+                            </div>
+                            <div class="img_box back">
+                                <img src="./data/img/(9).jpg" alt="gal" title="gal">
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="img_box">
-                                <img src="./imgs/img (3).jpg" alt="">
-                                <div class="text_box">
-                                    <p>THE LIVING<br>
-                                        ROOM</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="img_box">
-                                <img src="./imgs/img (4).jpg" alt="">
-                                <div class="text_box">
-                                    <p>ALL HOME <br>
-                                        IMAGE </p>
+                        
+                    </div>
+
+                    <div class="item">
+                        <div class="img_box">
+                            <img src="./data/img/(1).jpg" alt="gal" title="gal">
+                            <div class="text_wrap">
+                                <div class="text">
+                                    <h2>FOREST / 중산자연휴양림</h2> 
+                                    <p>2022년 7월 27일 18:35</p>
+                                    <p>나원형</p>
+
+                                    <!-- <p class="content">Esse, repudiandae? Quasi, repellat? Iste blanditiis ipsa nihil obcaecati fugit sunt, temporibus ullam autem eius earum aut sapiente recusandae tempore cum voluptas.</p> -->
+
+                                    <div class="btn"><button >View More</button></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </article>
-            <article id="banner" class="section">
-                <div class="container">
-                    <h2 class="title">배너</h2>
-                    <div class="banner">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima vel laborum tempora,<br>
-                            explicabo natus nisi? Sunt, voluptatem blanditiis! Sunt, architecto<br>
-                            sequi provident reprehenderit ea illo autem culpa minima?<br>
-                            Molestiae, illo!
-                        </p>
+                    
+                    <div class="item grid">
+
+                       
+                        
+                        <div class="content">
+                            <div class="text">
+                                <h2>LAND </h2> 
+                                <p>거창항노화힐링랜드</p>
+                                <p>2022년 7월 28일 14:21</p>
+                                <p>이승철</p>
+
+                                <div class="btn"><button >View More</button></div>
+                            </div>
+                            <div class="img_box back">
+                                <img src="./data/img/(2).jpg" alt="gal" title="gal">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="img_box"><img src="./data/img/(2).jpg" alt="gal" title="gal"></div>
+                        </div>
+                     
+                        
+                           
+                        <div class="content">
+                            <div class="img_box"><img src="./data/img/(9).jpg" alt="gal" title="gal"></div>
+                        </div>
+                        <div class="content">
+                            <div class="text">
+                                <h2>GARDEN  </h2> 
+                                <p>산림청 국립남해편백자연휴양림</p>
+                                <p>2022년 7월 28일 16:49</p>
+                                <p>김희아</p>
+                                <div class="btn"><button >View More</button></div>
+                            </div>
+                            <div class="img_box back">
+                                <img src="./data/img/(9).jpg" alt="gal" title="gal">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
                     </div>
                 </div>
-            </article>
-            <footer>
-                <div class="container">
-                    <div class="grid footer">
-                        <div class="r_item flex">
-                            <div class="img_box"><img src="./imgs/logo.png" alt="logo"></div>
-                            <p>서울특별시 용산구 이태원로 15길</p>
-                            <p>051)0421-4245</p>
-                        </div>
-                        <div class="l_item flex">
-                            <div class="content">저작권 정보</div>
-                            <div class="content">이용안내</div>
-                            <div class="content">개인정보 처리 방침</div>
-                            <div class="content">저작권 보호정책</div>
-                            <div class="content">도로명 주소안내</div>
-                            <div class="content">사이트 오류 신고</div>
+            </div>
+        </div>
+
+        <div id="pro">
+            <div class="container">
+                <div class="pro_wrap flex">
+                    <div class="item">
+                        <div class="img_box">
+                            <div class="name flex"><p>이수미팜베리정원</p></div>
+                            <div class="text_box flex">
+                                <div class="icon"><i class="fa fa-percent"></i></div>
+                                <h2>DISCOUNT</h2>
+                                <p>1주 전 예약 시 20% 할인!</p>
+                                <p>  minima vel, maxime, itaque alias necessitatibus corporis tempora rem repellendus.</p>
+                            </div>
+                            <img src="./data/img/(1).jpg" alt="promotion" title="promotion"></div>
+                    </div>
+                    <div class="item">
+                        <div class="img_box">
+                            <div class="name flex"><p>이한메미술관</p></div>
+                            <div class="text_box flex">
+                                <div class="icon"><i class="fa fa-coffee"></i></div>
+                                <h2>COFFEE</h2>
+                                <p>지금 예약하면 카페 이용권을 드려요!</p>
+                                <p>  minima vel, maxime, itaque alias necessitatibus corporis tempora rem repellendus.</p>
+                            </div>
+                            <img src="./data/img/(2).jpg" alt="promotion" title="promotion"></div>
+                    </div>
+                    <div class="item">
+                        <div class="img_box">
+                            <div class="name flex"><p>사천식물랜드</p></div>
+                            <div class="text_box flex">
+                                <div class="icon"><i class="fa fa-percent"></i></div>
+                                <h2>DISCOUNT</h2>
+                                <p>경상남도 특산품 최대 30% 할인!</p>
+                                <p>  minima vel, maxime, itaque alias necessitatibus corporis tempora rem repellendus.</p>
+                            </div>
+                            <img src="./data/img/(3).jpg" alt="promotion" title="promotion"></div>
+                    </div>
+                    <div class="item">
+                        <div class="img_box">
+                            <div class="name flex"><p>나폴리농원</p></div>
+                            <div class="text_box flex">
+                                <div class="icon"><i class="fa fa-spa"></i></div>
+                                <h2>GARDEN</h2>
+                                <p>꽃밭 SNS 인생사진 이벤트!</p>
+                                <p>  minima vel, maxime, itaque alias necessitatibus corporis tempora rem repellendus.</p>
+                            </div>
+                            <img src="./data/img/(4).jpg" alt="promotion" title="promotion"></div>
+                    </div>
+                    <div class="item text_wrap flex">
+                        <h2>PROMOTION</h2>
+                        <p>Adipisicing elit. Ratione iure facere magni iste maiores obcaecati perspiciatis explicabo ducimus eos nemo sint molestias aperiam repudiandae, vel voluptates molestiae provident, esse eligendi.</p>
+                        <div class="btns">
+                            <button class="back">&lt;</button>
+                            <button class="border">&gt;</button>
                         </div>
                     </div>
-                    <div class="copy">Copyright (C)2022 Korea University. All Rights Reserved</div>
+
                 </div>
-            </footer>
-                </section>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container2 flex">
+            <div class="img_box"><h1><img src="./data//img/logo.png" alt="logo" title="logo"></h1></div>
+            <div class="copy"> Copyright (c) 2021 ~ 2022 Gyeongnam Garden. <br> All rights reserved. </div>
+            <div class="help">
+                Call: (055) 126-0021 <br>
+                Email: help@gyeongnam.garden <br>
+                Address: 경남 함양군 서성면 가르내길 202-1 (우 50002) <br>
+            </div>
+        </div>
+            
+</footer>
+
+<div id="loding">
+    <div class="item flex">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
     </div>
-
+</div>
 </body>
-
 </html>
